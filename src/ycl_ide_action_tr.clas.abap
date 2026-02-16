@@ -1,0 +1,21 @@
+CLASS ycl_ide_action_tr DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    INTERFACES if_aia_action .
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ycl_ide_action_tr IMPLEMENTATION.
+
+
+  METHOD if_aia_action~run.
+
+  ENDMETHOD.
+ENDCLASS.
